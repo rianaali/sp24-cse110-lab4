@@ -28,4 +28,7 @@ E. false. true maps to 1 and 1 does not equal 2.
 F. true. Boolean(2) converts 2 to true since it is a truthy value. so true equal true returns true.
 
 15. == evaluate equality with possible type conversions that exist in Javascript. === will also apply equality, but will not apply any type converstions.
+
+17. The array newArray = [2, 4, 8] is returned. doSomething is passed as a callback function and modifies the original array by multipying each by 2.
+19. outputs "1 4 3 2". 1 then 4 are printed. printing 3 is queued after printing 4 since it was used with setTimeout despite 0 milisconds specified. 2 prints after 1000 miliseconds.
     
